@@ -8,7 +8,7 @@ import { NotFoundPage } from "../pages/NotFoundPage";
 export const Paths = () => {
 
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/Projeto-DS-Frontend">
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/produtos" element={<ProductListingPage />} />
