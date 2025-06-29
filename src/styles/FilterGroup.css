@@ -1,0 +1,32 @@
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container input {
+    margin-right: 8px;
+    height: 22px;
+    width: 22px;
+    accent-color: #C92071;
+    vertical-align: bottom;
+}
+
+.input-container h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.label-check {
+    font-size: 16px;
+    color: #474747;
+    display: block;
+}

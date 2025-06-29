@@ -1,0 +1,125 @@
+:root {
+--primary: #C92071;
+--secondary: #B5B6F2;
+--tertiary: #991956;
+--error: #EE4266;
+--success: #52CA76;
+--warning: #F6AA1C;
+
+
+--dark-gray: #1F1F1F;
+--dark-gray-2: #474747;
+--dark-gray-3: #666666;
+--light-gray: #8F8F8F;
+--light-gray-2: #CCCCCC;
+--light-gray-3: #F5F5F5;
+--white: #FFFFFF;
+}
+
+
+/* estilização dos containers */
+
+.container-specialoffer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+}
+
+.container-img-offer {
+    flex-basis: 35%;
+    text-align:center;
+}
+
+.container-text-offer {
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Estilização dos elementos dentro dos containers */
+
+.img-offer {
+    height: 400px;
+}
+
+.container-text-offer span {
+    color: #C92071;
+    font-weight: bold;
+}
+
+.container-text-offer h2 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #474747;
+}
+
+.container-text-offer p {
+    line-height: 25px;
+    text-align: justify;
+    color: #474747;
+    width: 80%;
+}
+
+.container-text-offer button {
+    color: #F5F5F5;
+    background-color: #C92071;
+    font-weight: bold;
+
+    width: 188px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    transition-duration: 200ms;
+}
+
+.container-text-offer button:hover {
+    background-color: #991956;
+}
+
+
+/* Corrigindo responsividade */
+
+@media screen and (max-width: 1450px) {
+    .container-specialoffer {
+        gap: 90px;
+    }
+
+    .container-text-offer h2 {
+    font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-text-offer {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    .container-specialoffer {
+        gap: 0px;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .container-text-offer {
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-text-offer h2 {
+        font-size: 32px;
+    }
+
+    .container-img-offer img {
+        height: 86%;
+        width: 100%;
+    }
+
+}

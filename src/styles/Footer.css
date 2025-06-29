@@ -1,0 +1,147 @@
+:root {
+--primary: #C92071;
+--secondary: #B5B6F2;
+--tertiary: #991956;
+--error: #EE4266;
+--success: #52CA76;
+--warning: #F6AA1C;
+
+
+--dark-gray: #1F1F1F;
+--dark-gray-2: #474747;
+--dark-gray-3: #666666;
+--light-gray: #8F8F8F;
+--light-gray-2: #CCCCCC;
+--light-gray-3: #F5F5F5;
+--white: #FFFFFF;
+}
+
+
+/* configurações globais */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilo dos containers */
+
+footer {
+    background-color: #1F1F1F;
+    color: white;
+
+    padding: 70px 90px 30px 90px;
+}
+
+.footer-colunas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilização da coluna que contém a logo */
+
+.footer-descricao{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    height: 44px;
+    width: 253px;
+    cursor: pointer;
+}
+
+.footer-descricao p {
+    max-width: 300px;
+    text-align: justify;
+}
+
+.footer-icones {
+    display: flex;
+    gap: 35px;
+}
+
+/* Estilização global das outras colunas informacao-categorias-contato */
+
+.footer-info p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilização especifica do navlink, que se comporta como tag <a> */
+/* Navlink está dentro do componente informations, conforme a documentação */
+/* Navlink contém aquilo que está escrito dentro de cada li */
+
+footer li {
+    line-height: 32px;
+    list-style: none;
+    max-width: 250px;
+    text-decoration: none;
+}
+
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilização dos diretos autorais */
+
+.footer-direitos {
+    margin-top: 40px;
+}
+
+.footer-direitos p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Melhorando responsividade */
+
+@media screen and (max-width:1200px) {
+    .footer-info,
+    .footer-descricao,
+    .footer-categorias,
+    .footer-contato {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-colunas {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer-info p {
+        margin-bottom: 10px;
+    }
+
+    .footer-colunas {
+        gap: 20px;
+    }
+    
+    footer {
+        padding: 70px 48px 30px 42px;
+    }
+
+    footer li {
+        line-height: 25px;
+    }
+    .footer-info,
+    .footer-descricao,
+    .footer-categorias,
+    .footer-contato {
+        margin: 0;
+    }
+}

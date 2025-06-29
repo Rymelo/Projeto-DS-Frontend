@@ -1,0 +1,346 @@
+/* configuração da galeria */
+
+.all-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+.slides-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+}
+
+/* estilização das imagens */
+
+.background {
+    display: block; 
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    position: relative;
+}
+
+.efeito-fundo {
+    position: absolute;
+    top: 66px;
+    right: 61px;
+    width: 17%;
+}
+
+.produtoimagem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    
+    top: 8%;
+    left: -13%;
+    z-index: 1;
+}
+
+/* estilos botoes */
+
+.button {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button.left {
+    left: 1%;
+}
+
+.button.left.disable {
+    display: none;
+}
+
+.button.right {
+    right: 1%;
+}
+
+.button.right.disable {
+    display: none;
+}
+
+
+/* Estilização do conteudo ao lado da imagem */
+
+.conteudo {
+    width: 40%;
+    height: 100%;
+    padding: 0px 136px 0px 0px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    transform: translateX(18%) translateY(18%);
+}
+
+.melhor-oferta {
+    color: #F6AA1C;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.queima-estoque {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.lorem {
+    font-size: 23px;
+    color: #474747;
+    line-height: 30px;
+}
+
+.botao-ofertas {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 228px;
+    height: 48px;
+
+    color: #F5F5F5;
+    background-color: #C92071;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.botao-ofertas:hover {
+    background-color: #991956;
+}
+
+
+/* DOTS de navegação */
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+    gap: 10px;
+}
+
+.dot {
+    background-color: #CCCCCC;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 100%;
+
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.dot:hover {
+    background-color: #991956;
+}
+
+.dot.active {
+    background-color: #C92071;
+}
+
+/* showthumbs */
+
+.thumb-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.thumb-container.disable {
+    display: none;
+}
+
+.thumb-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.thumb {
+    display: flex;
+    flex-basis: 144px;
+}
+
+.thumb.active {
+    border: 3px solid #C92071;
+}
+
+.thumb.i0 {
+    background-color: #B5B6F2;
+}
+
+.thumb.i1 {
+    background-color: #FFE8BC;
+}
+
+.thumb.i2 {
+    background-color: #FFC0BC;
+}
+
+.thumb.i3 {
+    background-color: #DEC699;
+}
+
+.thumb.i4 {
+    background-color: #E8DFCF;
+}
+
+
+
+/* configurações para a viewpage */
+
+.slide.change {
+    justify-content: center;
+}
+
+.background.change {
+    width: fit-content;
+}
+
+.produtoimagem.change {
+    left: 0;
+    top: 0;
+}
+
+.conteudo.change,
+.efeito-fundo.change {
+    display: none;
+}
+
+.dots.change {
+    display: none;
+}
+
+.all-container.change {
+    width: fit-content;
+    margin: 10px;
+}
+
+
+
+/* responsividade */
+
+
+@media screen and (max-width: 1200px) {
+.conteudo {
+    padding: 0px 55px 0px 0px;    
+}
+
+.produtoimagem {
+    left: -5%;
+}
+
+}
+
+@media screen and (max-width: 1080px) {
+.slide {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.conteudo {
+    padding: 0px 0px 0px 0px;
+    transform: translateX(0) translateY(0);
+    width: 55%;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.queima-estoque {
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.lorem {
+    font-size: 18px;
+}
+
+.efeito-fundo {
+    right: -140px;
+    width: 30%;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+
+.thumb {
+    flex-basis: 18%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.conteudo {
+    width: 75%;
+}
+.gallery-container {
+    height: 100%;
+}
+
+.efeito-fundo {
+    top: 17px;
+    right: -60px;
+    width: 35%;
+}
+
+.produtoimagem {
+    left: -25%;
+    width: 150%;
+    height: 110%;
+}
+ 
+.queima-estoque {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.lorem {
+    font-size: 18px;
+}
+
+.botao-ofertas {
+    width: 100%;
+}
+
+}
+
+
+
+
+/* responsividade para o product view page */
+
+@media screen and (max-width: 500px) {
+    .produtoimagem.change {
+        width: 100%;
+        height: 100%;
+    }
+}

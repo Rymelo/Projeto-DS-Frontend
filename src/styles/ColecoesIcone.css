@@ -1,0 +1,49 @@
+/* Estilizando o containeres  */
+
+.container-grupo-icones {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-icone {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+/* estilizando os icones */
+
+.fundo-icone {
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fundo-icone:hover {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.247);
+    transition-duration: 100ms;
+}
+
+.fundo-icone:hover > .icone {
+    filter: invert(21%) sepia(57%) saturate(5629%) hue-rotate(319deg) brightness(83%) contrast(87%);
+}
+
+.nome-icone {
+    font-size: 16px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.icone {
+    transition-duration: 900ms;
+    cursor: pointer;
+}
+

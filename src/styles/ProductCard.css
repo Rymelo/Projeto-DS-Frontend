@@ -1,0 +1,143 @@
+/* estilizando containeres */
+
+.container-card {
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* container imagem e texto */
+
+.card-image-container {
+    position: relative;
+    
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.card-image {
+    height: 60%;
+    width: 85.6%;
+    object-fit: contain;
+    mix-blend-mode: darken;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+/* estilizando o texto */
+
+.card-image-discount {
+    display: none;
+}
+
+.card-image-discount-active {
+    position: absolute;
+    
+    font-weight: bold;
+    font-size: 90%;
+    background-color: #E7FF86;
+    color:#474747;
+    border-radius: 18px;
+    padding: 6px 16px;
+
+    top: 10%;
+    left: 8%;
+}
+
+
+.card-type {
+    color: #8F8F8F;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-name {
+    font-size: 24px;
+    color: #474747;
+    word-break: break-word
+}
+
+.discount,
+.price {
+    font-size: 24px;
+}
+
+.discount.active {
+    color: #8F8F8F;
+    text-decoration: line-through;  
+}
+
+.price {
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.discount.active::after {
+    content: var(--priceDiscount);
+    color: #1F1F1F;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* ajustando responsividade  */
+
+@media screen and (max-width: 650px) {
+
+.card-image-container {
+    height: 46vw;
+}
+.container-card {
+    width: 46vw;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+.card-image-container {
+    height: 46vw;
+}
+.container-card {
+    width: 46vw;
+}
+
+.card-type {
+    font-size: 15px;
+}
+
+.card-name {
+    font-size: 22px;
+}
+
+.discount,
+.price {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+.card-name {
+    font-size: 18px;
+}
+
+.discount,
+.price {
+    font-size: 17px;
+}
+
+}

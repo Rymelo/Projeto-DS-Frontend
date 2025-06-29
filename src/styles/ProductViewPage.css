@@ -1,0 +1,35 @@
+.viewpage-container {
+    display: flex;
+    margin: 25px 132px;
+    margin-bottom: 100px;
+    gap: 38px;
+}
+
+@media screen and (max-width: 1600px) {
+    .viewpage-container {
+        margin: 25px 80px
+    }
+
+    .product-navigation {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .viewpage-container {
+        margin: 25px 0px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .product-navigation {
+        margin-left: 20px;
+    }
+
+    .product-navlist {
+        flex-wrap: wrap;
+    }
+
+}

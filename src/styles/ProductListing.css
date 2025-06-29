@@ -1,0 +1,61 @@
+.linka {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.productlist-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1320px) { 
+.productlist-container {
+    grid-template-columns: repeat(3, 1fr);     
+}
+
+}
+
+@media screen and (max-width: 920px) {
+    
+.productlist-container {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;    
+}
+}
+
+
+/* Estilização para outras páginas com uselocation() da biblioteca react-router */
+
+/* estilos para a página Productlistingpage */
+
+.productlist-container-listingpage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    padding-bottom: 140px;
+}
+
+@media screen and (max-width: 1800px) {
+    
+.productlist-container-listingpage {
+    grid-template-columns: repeat(3, 1fr);     
+}
+}
+
+@media screen and (max-width: 1340px) {
+
+    .productlist-container-listingpage {
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 10px; 
+}
+
+}

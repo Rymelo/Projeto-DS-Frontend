@@ -1,0 +1,81 @@
+/* estilização dos containers */
+.container-filtrar-por {
+    background-color: white;
+    padding: 30px;
+
+    height: fit-content;
+    width: 308px;
+    border-radius: 5px;
+
+    margin-left: 7.79vw;
+    margin-top: 40px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilização dos itens */
+
+.filtros h2 {
+    font-size: 16px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.filtros hr {
+    color: #8F8F8F;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 1450px) {
+
+.container-filtrar-por {
+    margin-left: 1vw;       
+}
+
+}
+
+@media screen and (max-width: 980px) {
+    
+    /* Filtro lateral */
+
+.container-filtrar-por {
+    position: fixed;
+    top: -42px;
+    left: -320px;
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1002;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: 0px;
+    border-top-right-radius: 0px;
+}
+
+.container-filtrar-por.active {
+    left: 0px;
+}
+
+.overlayf {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1001;
+}
+
+
+}

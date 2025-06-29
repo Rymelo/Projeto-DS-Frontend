@@ -1,0 +1,419 @@
+:root {
+--primary: #C92071;
+--secondary: #B5B6F2;
+--tertiary: #991956;
+--error: #EE4266;
+--success: #52CA76;
+--warning: #F6AA1C;
+
+
+--dark-gray: #1F1F1F;
+--dark-gray-2: #474747;
+--dark-gray-3: #666666;
+--light-gray: #8F8F8F;
+--light-gray-2: #CCCCCC;
+--light-gray-3: #F5F5F5;
+--white: #FFFFFF;
+}
+
+/* configurações globais */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos dos containers */
+
+header {
+    background-color: #FFFFFF;
+    padding: 30px 100px 25px 80px;
+}
+
+.header.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Estilos dos elementos de cima (logo, barra de pesquisa...) */
+
+.div-input{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.busca {
+    width: 100%;
+    height: 60px;
+
+    padding: 10px 45px 10px 20px;
+    border-radius: 6px;
+    border: none; 
+    outline-color: transparent;
+    font-size: 15px;
+
+    background-color: #F5F5F5;
+    transition: 200ms;
+}
+
+.icone-search {
+    position: absolute;
+    border: none; 
+    background-color: transparent;
+    top: 20px;
+    transform: translateX(-42px);
+    cursor: pointer;
+}
+
+.icone-search.active {
+    filter: invert(21%) sepia(57%) saturate(5629%) hue-rotate(319deg) brightness(83%) contrast(87%);    
+}
+
+.busca::placeholder {
+  color: #8F8F8F;
+}
+
+.busca:focus{
+    outline-color: #C92071;
+}
+
+.cadastre-se {
+    margin: 0px 20px 0px 20px;
+    font-size: 16px;
+    color: #474747;
+    text-decoration-color: #474747;
+    text-align: center;
+    align-self: center;
+    transition-duration: 200ms;
+}
+
+.cadastre-se.lat,
+.botao-entrar.lat {
+    display: none;
+}
+
+.cadastre-se:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c23f7e;
+
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 7px 0px 7px;
+    text-decoration: none;
+}
+
+.botao-entrar {
+    height: 40px;
+    width: 144px;
+    padding: 0px 10px 0px 10px;
+    margin-right: 30px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    background-color: #C92071;
+    cursor: pointer;
+    align-self: center;
+
+    transition-duration: 400ms;
+}
+
+
+.botao-entrar:hover {
+    font-size: 25px;
+    background-color: #e4368a;
+    border-radius: 30px;
+    height: 50px;
+    width: 144px;
+}
+
+.mini-cart {
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+
+/* Barra de pesquisa mobile */
+
+.div-mobile-input{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.busca-mobile {
+    width: 100%;
+    height: 50px;
+
+    padding: 10px 45px 10px 20px;
+    border-radius: 6px;
+    border: none; 
+    outline-color: transparent;
+    font-size: 15px;
+
+    background-color: #F5F5F5;
+    transition: 200ms;
+
+}
+
+.div-mobile-input.hidden {
+    display: none;
+}
+
+.icone-search-mobile {
+    position: absolute;
+    right: 3%;
+    top: 13px;
+    border: none; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Estilização dos elementos de baixo (navegação) */
+
+.header.nav {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.header-nav-ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;      
+    font-size: 17px;
+}
+
+.header-nav-ul li a{
+    transition-duration: 300ms;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav-ul li a.active {
+    color: #C92071;
+    border-bottom: 2px solid #C92071;
+    padding-bottom: 2px;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+.li:hover {
+    color: #C92071;
+    border-bottom: 2px solid #C92071;
+    cursor: pointer;
+}
+
+.hr-header {
+    display: none;
+}
+
+
+/* adaptando responsividade */
+
+@media screen and (max-width: 1600px) {
+    header {
+        padding: 30px 35px 25px 30px;   
+    }
+    
+}
+
+@media screen and (max-width: 1430px) {
+    .cadastre-se {
+        flex-basis: 15%;   
+        margin: 0px 7px 0px 7px; 
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .cadastre-se {
+        flex-basis: 30%;  
+        margin: 0px 10px 0px 10px; 
+    }
+
+    .mini-cart {
+        padding: 0px 15px 0px 20px;  
+    }
+
+    .botao-entrar {
+        margin: 0px;
+    }
+}
+
+/* Responsividade: desativação para telas 900px+ */
+
+.hamburguer,
+.pagina-paragrafo {
+    display: none;
+}
+
+/* Responsividade: telas 900px-  */
+
+@media screen and (max-width: 900px) {
+    
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header.nav {
+    margin: 0;
+    height: 0;
+}
+
+.header.nav ul {
+    flex-direction: column;
+}
+
+.cadastre-se,
+.botao-entrar {
+    display: none;
+}
+
+.header.top {
+    display: flex;
+    justify-content: center;
+}
+
+/* Do menu lateral */
+
+.hamburguer {
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    z-index: 1001;
+    transform: translateX(-24px) translateY(-59px);
+}
+
+.header-nav-ul {
+    position: fixed;
+    top: 71px;
+    left: -310px;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 11;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.header-nav-ul.open {
+    left: 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.pagina-paragrafo {
+    display: block;
+    font-weight: bold;
+}
+
+/* Adaptação dos icones para 900px */
+
+.mini-cart {
+    padding: 0px;
+    margin-top: 6px;
+    transform: translateX(35px)
+}
+
+.icone-search {
+    display: block;
+    transform: translateX(0px) translateY(-2px);
+    transition-duration: 600ms;
+}
+
+.icone-search:hover {
+    filter: invert(21%) sepia(57%) saturate(5629%) hue-rotate(319deg) brightness(83%) contrast(87%);
+}
+
+.busca {
+    display: none;
+}
+
+.div-input {
+    flex-basis: 0;
+}
+
+.header.top {
+    transform: translateX(20px);
+}
+
+/* config dos botoes na lateral */
+
+.hr-header,
+.cadastre-se.lat,
+.botao-entrar.lat{
+    display: block;
+}
+
+.cadastre-se.lat {
+    flex-basis: 0;
+}
+
+.botao-entrar.lat {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div-botoes-laterais {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(355px);
+    gap: 20px;
+}}
+
+@media screen and (max-width: 400px) {
+
+/* Adaptação dos icones para 400px */
+
+    .icone-search {
+        transform: translateX(-43px) translateY(-10px);
+        height: 16px;
+    }
+
+    .mini-cart {
+        padding: 0px;
+        transform: translateX(-6px) translateY(-1px);
+    }
+
+    .hamburguer {
+        font-size: 21px;
+        transform: translateX(-34px) translateY(-50px);
+    }
+
+    .overlay {
+        top: 58px;
+    }
+
+    .header-nav-ul {
+        top: 58px;
+    }
+
+}
+

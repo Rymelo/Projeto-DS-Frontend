@@ -1,0 +1,176 @@
+:root {
+--primary: #C92071;
+--secondary: #B5B6F2;
+--tertiary: #991956;
+--error: #EE4266;
+--success: #52CA76;
+--warning: #F6AA1C;
+
+
+--dark-gray: #1F1F1F;
+--dark-gray-2: #474747;
+--dark-gray-3: #666666;
+--light-gray: #8F8F8F;
+--light-gray-2: #CCCCCC;
+--light-gray-3: #F5F5F5;
+--white: #FFFFFF;
+}
+
+/* estilizando containers */
+
+.buybox-container{
+    flex-basis: 100%;
+}
+
+.buybox-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 640px;
+}
+
+.avaliation-container {
+    display: flex;
+    gap: 8px;
+}
+
+.star-box {
+    background-color: #F6AA1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 20px;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.star-box p {
+    margin-right: 6px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.star-box svg {
+    width: 12px;
+    height: 14px;
+    border: none;
+}
+
+/* lista índice */
+
+.product-navigation {
+    margin: 20px;
+    margin-left: 140px;
+}
+
+.product-navlist {
+    display: flex;
+    gap: 10px;
+}
+
+.product-navlist li {
+    list-style: none;
+}
+
+/* estilizando o conteudo */
+
+.buybox-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buybox-ref {
+    font-size: 14px;
+    color: #666666;
+}
+
+.buybox-price {
+    color:#474747;
+}
+
+.buybox-price {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.buybox-discount,
+.buybox-price {
+    font-size: 24px;
+}
+
+.buybox-discount.active {
+    color: #8F8F8F;
+    text-decoration: line-through;  
+}
+
+.buybox-price {
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.buybox-discount.active::after {
+    content: var(--priceDiscount);
+    color: #1F1F1F;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.buybox-avaliation {
+    color: #666666;    
+}
+
+.description-title {
+    margin-bottom: 8px;
+    color: #8F8F8F;
+    font-weight: bold;
+}
+
+.description {
+    color: #474747;
+}
+
+.action-button {
+    background-color: #FFB31F;
+
+    font-weight: bold;
+    color: white;
+   
+    height: 40px;
+    width: 214px;
+    border: none;
+    border-radius: 5px;
+    
+    text-transform: uppercase;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #e7a31a;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width: 1200px) {
+    .buybox-container {
+        margin: auto;
+    }
+    .action-button {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .buybox-container {
+        margin: 25px;
+    }
+
+}

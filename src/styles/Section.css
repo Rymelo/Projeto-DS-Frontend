@@ -1,0 +1,56 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.section {
+    width: fit-content;     /* faz a section se ajustar ao conteúdo */
+    margin: 0 auto;
+}
+
+/* Alinhamento dos títulos */
+
+.container-titulos {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    position: relative; 
+}
+
+.section-titulo, .section-link{
+    margin-bottom: 18px;
+    flex: 1;
+}
+
+.section-link{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: #C92071;
+    font-size: 18px;
+}
+
+.section-link.none{
+    display: none;
+}
+
+.section-titulo.center,
+.section-titulo.left {
+    font-size: 24px;   
+    color: #474747;
+    font-weight: 700;
+}
+.section-titulo.center{
+    text-align: center;
+}
+
+.section-titulo.left{
+    text-align: left;
+}
+
+/* ajustando a secao para a pagina inicial */
+
+.section-homepage {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 30px 0px 60px 0px;
+}

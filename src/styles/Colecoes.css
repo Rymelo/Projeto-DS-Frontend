@@ -1,0 +1,107 @@
+:root {
+--primary: #C92071;
+--secondary: #B5B6F2;
+--tertiary: #991956;
+--error: #EE4266;
+--success: #52CA76;
+--warning: #F6AA1C;
+
+
+--dark-gray: #1F1F1F;
+--dark-gray-2: #474747;
+--dark-gray-3: #666666;
+--light-gray: #8F8F8F;
+--light-gray-2: #CCCCCC;
+--light-gray-3: #F5F5F5;
+--white: #FFFFFF;
+}
+/* Adaptação da section para a homepage */
+
+.container-colecao img {
+    width: 100%;
+}
+
+/* Estilização dos containers */
+
+.container-grupo-colecoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+
+.container-colecao {
+position: relative;
+}
+
+.container-colecao h3,
+.container-colecao span,
+.container-colecao button {
+    position: absolute;
+}
+
+/* Estilização dos botões-span */
+
+.desconto {
+    top: 13%;
+    left: 8%;
+
+    font-weight: bold;
+    font-size: 90%;
+    background-color: #E7FF86;
+    color:#474747;
+    border-radius: 18px;
+    padding: 6px 16px;
+}
+
+.container-colecao button {
+    width: 30%;
+    height: 20%;
+    bottom: 15%;
+    left: 8%;
+
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #C92071;
+    font-size: 100%;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.container-colecao button:hover {
+    color: white;
+    background-color: #C92071;
+}
+
+.nome-colecao {
+    top: 30%;
+    left: 8%;
+    font-size: 3vh;
+    font-weight: bold;
+    max-width: 45%;
+}
+
+/* adicionando responsividade */
+
+@media screen and (max-width: 1262px) {
+    .container-grupo-colecoes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-colecao:nth-child(3) {
+        grid-column: span 2;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container-grupo-colecoes {
+        grid-template-columns: auto;
+    }
+
+    .container-colecao:nth-child(3) {
+        grid-column: span 1;
+    }
+}
