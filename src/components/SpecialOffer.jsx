@@ -7,7 +7,7 @@ export const SpecialOffer = () => {
         <section className="section-specialoffer">
             <div className="container-specialoffer">
                 <div className="container-img-offer">
-                    <img className="img-offer" src="\imagens\oferta-especial.png" alt="Oferta Especial" />
+                    <img className="img-offer" src={`${import.meta.env.BASE_URL}/imagens/oferta-especial.png`} alt="Oferta Especial" />
                 </div>
                 <div className="container-text-offer">
                     <span>Oferta Especial</span>
