@@ -127,7 +127,7 @@ const Header = () => {
             onClick={pesquisar}
             className='icone-search-mobile'>
 
-            <img src="\imagens\Search.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}/imagens/Search.png`} alt="" />
 
           </button>
         </div>
