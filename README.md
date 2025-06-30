@@ -82,8 +82,8 @@ O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react 
 ### Foram construídas quatro páginas:
 - Página inicial (homepage)
 - Página 404 (NotFoundPage)
-- Página de visualização do produto
-- Página de listagem do produtos
+- Página de visualização do produto (ProdutViewPage)
+- Página de listagem do produtos (ProductListingPage)
 
 </details>
 
