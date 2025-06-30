@@ -88,7 +88,7 @@ export const Gallery = ({ showthumbs, images, width, height, radius }) => {
                                         </div>
                                         <div className={`background${change}`}>
                                             <img className={`produtoimagem${change}`} src={array.imagem} alt="" />
-                                            <img className={`efeito-fundo${change}`} src="/imagens/ornament.png" alt="" />
+                                            <img className={`efeito-fundo${change}`} src={`${import.meta.env.BASE_URL}/imagens/ornament.png`} alt="" />
                                         </div>
                                     </div>
                                 </>

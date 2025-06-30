@@ -11,7 +11,7 @@ export const FilterOrderBy = ({abrir, setAbrir}) => {
                     <option value="maiorp">Preço: Maior Custo</option>
                     <option value="menorp">Preço: Menor Custo</option>
                     </select>
-                    <button onClick={() => setAbrir(!abrir)} className="button-filter"><img src="/imagens/Filter-button.png" alt="botão de filtro" /></button>
+                    <button onClick={() => setAbrir(!abrir)} className="button-filter"><img src={`${import.meta.env.BASE_URL}/imagens/Filter-button.png`} alt="botão de filtro" /></button>
             </div>
             </label>
         </div>
