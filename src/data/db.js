@@ -11,13 +11,13 @@ export const produtos = [
         priceDiscount: 149.90,
         percentage: 25,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria-horizontal.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria-horizontal.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -35,13 +35,13 @@ export const produtos = [
         priceDiscount: 149.91,
         percentage: 25,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-teste.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-teste.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -57,13 +57,13 @@ export const produtos = [
         stars: 4.7,
         price: 200.00,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria-horizontal.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria-horizontal.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -81,13 +81,13 @@ export const produtos = [
         priceDiscount: 149.90,
         percentage: 30,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria-horizontal.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria-horizontal.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -105,13 +105,13 @@ export const produtos = [
         priceDiscount: 149.90,
         percentage: 25,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-teste.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-teste.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -129,13 +129,13 @@ export const produtos = [
         priceDiscount: 149.90,
         percentage: 25,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria-horizontal.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria-horizontal.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -151,13 +151,13 @@ export const produtos = [
         stars: 4.7,
         price: 200.00,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-teste.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-teste.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-testel.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-testel.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
@@ -175,13 +175,13 @@ export const produtos = [
         priceDiscount: 149.90,
         percentage: 25,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid asperiores nam ad aperiam, sunt repellendus dolores. Veritatis error nesciunt molestias, rem optio temporibus? Commodi architecto nostrum laborum voluptatem necessitatibus?",
-        imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria-horizontal.png`,
+        imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria-horizontal.png`,
         galleryimages: [
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` },
-            { imagem: `${import.meta.env.BASE_URL}/imagenstenis-galeria.png` }
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+            { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
         ],
         tamanho: ["39", "40", "41", "42", "43"],
         cores: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]
