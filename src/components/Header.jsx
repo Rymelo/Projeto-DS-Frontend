@@ -64,10 +64,8 @@ const Header = () => {
             type='submit' 
             onClick={window.innerWidth <= 900? () => 
             lupa() : pesquisar} 
-            className={`icone-search ${abrirSearch ? ' active' : ''}`}>
-              
-              <img src="\imagens\Search.png" alt="" />
-            
+            className={`icone-search ${abrirSearch ? ' active' : ''}`}>          
+              <img src={`${import.meta.env.BASE_URL}/imagens/Search.png`} alt="" />
             </button>
           </div>
 
