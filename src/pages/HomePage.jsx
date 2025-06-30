@@ -17,25 +17,25 @@ export const HomePage = () => {
 
   // array para preencher as colecoes que não estão componentizadas, conforme edital.
   const preenchercolecoes = [
-    { discount: '30', text: `Novo drop Supreme`, img: "/imagens/camisa-fundo.png", alt: 'Camisa com desconto' },
-    { discount: '30', text: 'Coleção Adidas', img: "/imagens/tenis-fundo.png", alt: 'Tenis com desconto' },
-    { discount: '30', text: 'Novo Beats Bass', img: "/imagens/fone-fundo.png", alt: 'Fone com desconto' },
+    { discount: '30', text: `Novo drop Supreme`, img: `${import.meta.env.BASE_URL}/imagens/camisa-fundo.png`, alt: 'Camisa com desconto' },
+    { discount: '30', text: 'Coleção Adidas', img: `${import.meta.env.BASE_URL}/imagens/tenis-fundo.png`, alt: 'Tenis com desconto' },
+    { discount: '30', text: 'Novo Beats Bass', img: `${import.meta.env.BASE_URL}/imagens/fone-fundo.png`, alt: 'Fone com desconto' },
   ]
 
   const preenchericones = [
-    { text: 'Camisetas', img: "/imagens/icone-camisetas.png", alt: 'Icone de camiseta' },
-    { text: 'Calças', img: "/imagens/icone-calcas.png", alt: 'Icone de calça' },
-    { text: 'Bonés', img: "/imagens/icone-bones.png", alt: 'Icone de Boné' },
-    { text: 'Headphones', img: "/imagens/icone-headphones.png", alt: 'Icone de Headphones' },
-    { text: 'Tênis', img: "/imagens/icone-tenis.png", alt: 'Icone de Tênis' },
+    { text: 'Camisetas', img: `${import.meta.env.BASE_URL}/imagens/icone-camisetas.png`, alt: 'Icone de camiseta' },
+    { text: 'Calças', img: `${import.meta.env.BASE_URL}/imagens/icone-calcas.png`, alt: 'Icone de calça' },
+    { text: 'Bonés', img: `${import.meta.env.BASE_URL}/imagens/icone-bones.png`, alt: 'Icone de Boné' },
+    { text: 'Headphones', img: `${import.meta.env.BASE_URL}/imagens/icone-headphones.png`, alt: 'Icone de Headphones' },
+    { text: 'Tênis', img: `${import.meta.env.BASE_URL}/imagens/icone-tenis.png`, alt: 'Icone de Tênis' },
   ]
 
   const arraygaleria = [
-    { imagem: "/imagens/tenis-galeria.png" },
-    { imagem: "/imagens/tenis-galeria.png" },
-    { imagem: "/imagens/tenis-galeria.png" },
-    { imagem: "/imagens/tenis-galeria.png" },
-    { imagem: "/imagens/tenis-galeria.png" }
+    { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+    { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+    { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+    { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` },
+    { imagem: `${import.meta.env.BASE_URL}/imagens/tenis-galeria.png` }
   ]
 
 
