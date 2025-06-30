@@ -6,8 +6,6 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 - [Sobre](#sobre)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-  - [Estruturação do diretório](#estruturação-das-pastas-principais)
-  - [Páginas principais](#paginas-principais)
 - [Instruções de instalação](#Instruções-de-instalação)
 - [Créditos](#créditos)
 
@@ -104,7 +102,7 @@ O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react 
 2.  **Entre na pasta do projeto:**
 
     ```bash
-    cd Projeto-DS-FrontEnd
+    cd Projeto-DS-Frontend
     ```
 
 3.  **Instale as dependências:**
