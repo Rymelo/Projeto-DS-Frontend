@@ -108,7 +108,7 @@ O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react 
 3.  **Instale as dependências:**
 
     ```bash
-    npm install # ou yarn install
+    npm install
     ```
 
 4.  **Execute o projeto localmente:**
