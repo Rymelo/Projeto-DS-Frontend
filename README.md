@@ -7,15 +7,15 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 ## 📑 Índice
 
 - 🔍 [Sobre](#sobre)
-- 🛠️ [Ferramentas utilizadas](#ferramentas-utilizadas)
-- 📁 [Estrutura do Projeto](#estrutura-do-projeto)
-- 🚀 [Instruções de instalação](#Instruções-de-instalação)
-- 🙌 [Créditos](#créditos)
+- 🛠️ [Ferramentas utilizadas](#-ferramentas-utilizadass)
+- 📁 [Estrutura do Projeto](#-estrutura-do-projeto)
+- 🚀 [Instruções de instalação](#-instruções-de-instalação)
+- 🙌 [Créditos](#-créditos)
 
 ## 🔍Sobre
 O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react na componentização das páginas, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.
 
-## 🛠️Ferramentas utilizadas
+## 🛠️ Ferramentas utilizadas
 <a href="https://react.dev/">![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br/></a>
 <a href="https://reactrouter.com/">![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-CA4245?style=for-the-badge&logo=react-router&logoColor=white)<br/></a>
 <a href="https://vite.dev/">![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)<br/></a>
