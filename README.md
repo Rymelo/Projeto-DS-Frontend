@@ -13,7 +13,7 @@ Este projeto foi desenvolvido para fins de avaliação e assimilação de conhec
 - 🙌 [Créditos](#-créditos)
 
 ## 🔍Sobre
-O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react na componentização das páginas, de forma a cumprir com os critérios da [documentação](#créditos) através da aplicação dos conhecimentos adquiridos.
+O projeto foi idealizado como um ecommerce que utiliza tecnologias como o react na componentização das páginas, de forma a cumprir com os critérios da [documentação](#-créditos) através da aplicação dos conhecimentos adquiridos.
 
 ## 🛠️ Ferramentas utilizadas
 
